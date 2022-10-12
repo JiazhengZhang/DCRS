@@ -1,0 +1,48 @@
+
+DNCEmails:
+  seed: 40233139
+  model: DCRS
+  num_feats: 32
+  num_hidden: 32
+  num_proj_hidden: 32
+  activation: 'relu'
+  fuse: 0.5
+  num_layers: 4
+  gamma: 1
+  num_epochs: 200
+  learning_rate: 0.001
+  weight_decay: 0.00001
+  knn: 5
+  patience: 12
+
+PPI:
+  seed: 40233139
+  model: DCRS
+  num_feats: 32
+  num_hidden: 32
+  num_proj_hidden: 32
+  activation: 'relu'
+  fuse: 0.4
+  num_layers: 4
+  gamma: 1
+  num_epochs: 200
+  learning_rate: 0.001
+  weight_decay: 0.00001
+  knn: 5
+  patience: 12
+
+LastFM:
+  seed: 40233139
+  model: DCRS
+  num_feats: 32
+  num_hidden: 32
+  num_proj_hidden: 32
+  activation: 'relu'
+  fuse: 0.4
+  num_layers: 4
+  gamma: 1
+  num_epochs: 200
+  learning_rate: 0.001
+  weight_decay: 0.00001
+  knn: 5
+  patience: 12
