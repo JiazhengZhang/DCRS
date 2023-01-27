@@ -1,9 +1,5 @@
-# A paper is sumbmitted for XXX'23 and under reviewing
+# Encoding Node Diffusion Competence and Role Significance for Network Dismantling
 
-
-Here are some real-world and synthetic datasets we used in paper, you can unzip the ```data.zip ``` and put them in the folder ```.\data``` . 
-
-Note that We will release all the datasets and codes after the anonymous review.
 
 ## Dependencies
 
@@ -22,13 +18,14 @@ pip install -r requirement.txt
 
 
 ## Usage
-1.  Train and evaluate the model on real-world networks :
+1.  Unzip the ```data.zip ``` and put them in the folder ```.\data``` . 
+2.  Train and evaluate the model on real-world networks :
 
 ```
 python train_realworld.py
 ```
 
-2.  Train and evaluate the model on synthetic networks :
+3.  Train and evaluate the model on synthetic networks :
 
 ```
 python train_synthetic.py --Type BA --N 1000 --M 4
