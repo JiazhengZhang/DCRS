@@ -5,7 +5,7 @@ The official PyTorch implementation of DCRS in the following paper:
 ```
 Jiazheng Zhang, Bang Wang. 2023. Encoding Node Diffusion Competence and Role Significance for Network Dismantling.
 In WWW'23, April 30 – May 4, 2023, Austin, Texas, USA, 12 pages.
-
+```
 
 ## Dependencies
 
@@ -52,3 +52,4 @@ Please cite our work if you find our code/paper is helpful to your work.
   location={Austin, Texas, USA},
   numpages={12}
 }
+```
